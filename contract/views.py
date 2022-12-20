@@ -11,7 +11,13 @@ from .serializers import CookSerializer,CustomerSerializer
 
 class CooksRecipes(APIView):
     def get(self,request,format=None):
-        recipes = Cook.objects.all()[0:5]
+        recipes = Cook.objects.all()[0:2]
+        serializer = CookSerializer(recipes,many=True)
+        return Response(serializer.data)
+
+class CooksAllRecipes(APIView):
+    def get(self,request,format=None):
+        recipes = Cook.objects.all()
         serializer = CookSerializer(recipes,many=True)
         return Response(serializer.data)
 
@@ -21,6 +27,19 @@ def CustomerEnd(request):
         customers = Customer.objects.all()
         serializer = CustomerSerializer(customers,many=True)
         return Response(serializer.data)
+
+
+@api_view(['POST'])
+def search(request):
+    q = request.GET.get('query')
+    if request.GET.get('query') != None:
+         recipes = Cook.objects.filter(name__icontains=q)
+         serializer = CookSerializer(recipes, many=True)
+         return Response(serializer.data)
+    else:
+         return Response({"recipes": []})
+
    
-      
+
+
        
