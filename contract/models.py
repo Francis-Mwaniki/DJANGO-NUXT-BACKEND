@@ -2,10 +2,11 @@ from django.db import models
 from io import BytesIO
 from PIL import Image
 from django.core.files import File
-
+from django.contrib.auth.models import User
 
 class Cook(models.Model):
     cookName = models.CharField(max_length=255)
+    host = models.ForeignKey(User, on_delete=models.SET_NULL,null=True)
     recipeName = models.CharField(max_length=255)
     quote = models.TextField(blank=True, null=True)
     description = models.TextField(blank=True, null=True)
@@ -18,6 +19,9 @@ class Cook(models.Model):
 
     def __str__(self):
         return self.cookName
+    def __str__(self):
+
+        return self.host    
 
     def __str__(self):
         return self.recipeName
@@ -54,6 +58,7 @@ class Cook(models.Model):
 
 class Customer(models.Model):
     customername = models.CharField(max_length=255,null=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     cook = models.ForeignKey(Cook, on_delete=models.SET_NULL,null=True)
     rating = models.IntegerField()
     comments = models.TextField(blank=True,null=True)
@@ -65,7 +70,8 @@ class Customer(models.Model):
     
     def __str__(self):
         return self.customername
-
+    def __str__(self):
+        return self.user
     def __str__(self):
         return self.cook
 

@@ -11,7 +11,7 @@ from .serializers import CookSerializer,CustomerSerializer
 
 class CooksRecipes(APIView):
     def get(self,request,format=None):
-        recipes = Cook.objects.all()
+        recipes = Cook.objects.all()[0:5]
         serializer = CookSerializer(recipes,many=True)
         return Response(serializer.data)
 

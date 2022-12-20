@@ -7,6 +7,8 @@ class CookSerializer(serializers.ModelSerializer):
       fields =  (
             "id",
             "cookName",
+            "host",
+            "quote",
             "description",
             "recipeName",
             "get_image",
@@ -22,6 +24,7 @@ class CustomerSerializer(serializers.ModelSerializer):
             "customername",
             "comments",
             "rating",
+            "user",
             "date_added",
             "cook",
             "id"
