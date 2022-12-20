@@ -1,0 +1,58 @@
+
+[
+    {
+        "id": 9,
+        "cookName": "Francis Daniel",
+        "host": 1,
+        "quote": "\"Life is uncertain. Eat dessert first.\" - Ernestine Ulmer",
+        "description": "In a large pot, heat 1 tbsp of oil over medium heat. Add 1 lb of ground beef and 1 diced onion to the pot and cook until the beef is browned and the onion is translucent. Add 1 (14.5 oz) can of diced tomatoes, 1 (15 oz) can of kidney beans (drained and rinsed), 1 cup of beef broth, 1 tsp of chili powder, 1 tsp of ground cumin, and 1/2 tsp of paprika to the pot. Stir to combine. Bring the mixture to a boil, then reduce the heat to low and simmer for about 30 minutes, or until the flavors have melded together. Serve the chili with your favorite toppings, such as grated cheese, sour cream, and chopped fresh cilantro",
+        "recipeName": "Chili",
+        "get_image": "http://127.0.0.1:8000/media/uploads/chili_dAbwlUu.jpg",
+        "get_thumbnail": "http://127.0.0.1:8000/media/uploads/uploads/chili_dAbwlUu.jpg",
+        "date_added": "2022-12-20T10:32:18.743856Z"
+    },
+    {
+        "id": 8,
+        "cookName": "Desmon",
+        "host": 1,
+        "quote": "\"Food is our common ground, a universal experience.\" - James Beard",
+        "description": "Preheat your oven to 350 degrees Fahrenheit. In a large mixing bowl, mash 2-3 ripe bananas with a fork. Add 1/2 cup of granulated sugar, 1/2 cup of melted butter, and 2 eggs to the mashed bananas. Beat together until well combined. In a separate mixing bowl, combine 1 3/4 cups of all-purpose flour, 1 tsp of baking powder, and 1/2 tsp of cinnamon. Add the dry ingredients to the wet ingredients and stir until just combined. Pour the batter into a greased 9x5-inch loaf pan. Bake the banana bread in the preheated oven for about 1 hour, or until a toothpick inserted into the center comes out clean. Let the bread cool in the pan for a few minutes, then transfer it to a wire rack to cool completely.",
+        "recipeName": "Banana Bread",
+        "get_image": "http://127.0.0.1:8000/media/uploads/breadbanana_3vRMQdZ.jpg",
+        "get_thumbnail": "http://127.0.0.1:8000/media/uploads/uploads/breadbanana_3vRMQdZ.jpg",
+        "date_added": "2022-12-20T10:31:42.036119Z"
+    },
+    {
+        "id": 7,
+        "cookName": "Peter",
+        "host": 1,
+        "quote": "\"Food is not just fuel, it is pleasure, culture, and love.\" - Michael Pollan",
+        "description": "Preheat your oven to 400 degrees Fahrenheit. Season 4 (6 oz) salmon fillets with salt, pepper, and your favorite spices (such as dill, lemon pepper, or paprika). Place the salmon fillets in a greased baking dish. Bake the salmon in the preheated oven for 12-15 minutes, or until it is cooked through and flakes easily with a fork. Serve the baked salmon with your choice of sides, such as roasted vegetables or a salad.",
+        "recipeName": "Baked Salmon",
+        "get_image": "http://127.0.0.1:8000/media/uploads/BakedSalmon_aNYOqzI.jpg",
+        "get_thumbnail": "http://127.0.0.1:8000/media/uploads/uploads/BakedSalmon_aNYOqzI.jpg",
+        "date_added": "2022-12-20T10:30:52.462150Z"
+    },
+    {
+        "id": 6,
+        "cookName": "Derrick",
+        "host": 1,
+        "quote": "\"All happiness depends on a leisurely breakfast.\" - John Gunther",
+        "description": "Preheat your oven to 400 degrees Fahrenheit. Wash and chop your choice of vegetables into bite-sized pieces (such as bell peppers, onions, zucchini, and cherry tomatoes). Place the vegetables in a single layer on a baking sheet. Drizzle the vegetables with olive oil and sprinkle with your favorite spices (such as salt, pepper, and herbs like oregano and basil). Roast the vegetables in the preheated oven for 20-30 minutes, or until they are tender and slightly caramelized. Serve the roasted vegetables hot, with your choice of protein (such as grilled chicken or baked salmon) and a side of grains (such as rice or quinoa).",
+        "recipeName": "Roasted Vegetables",
+        "get_image": "http://127.0.0.1:8000/media/uploads/roasted_veggies_ATgUNm5.jpg",
+        "get_thumbnail": "http://127.0.0.1:8000/media/uploads/uploads/roasted_veggies_ATgUNm5.jpg",
+        "date_added": "2022-12-20T10:29:26.641717Z"
+    },
+    {
+        "id": 5,
+        "cookName": "Derrick",
+        "host": 1,
+        "quote": "\"The only time to eat diet food is while you’re waiting for the steak to cook.\" - Julia Child",
+        "description": "In a small bowl, mix together 2 tbsp of cornstarch, 2 tbsp of soy sauce, and 1 tsp of sugar. Set aside. Heat 1 tbsp of oil in a wok or large pan over high heat. Add 1 lb of sliced beef and stir-fry until it is browned on all sides. Remove the beef from the pan and set it aside. In the same pan, add another tablespoon of oil and your choice of vegetables (such as bell peppers, onions, and broccoli). Stir-fry the vegetables until they are tender. Add the cooked beef back to the pan and pour the cornstarch mixture over it. Stir-fry everything together until the sauce thickens and coats the beef and vegetables. Serve the beef stir-fry over a bed of rice or noodles.",
+        "recipeName": "Beef Stir-Fry",
+        "get_image": "http://127.0.0.1:8000/media/uploads/friedBeaf_87Sz8CY_z0SjIkF.jpg",
+        "get_thumbnail": "http://127.0.0.1:8000/media/uploads/uploads/friedBeaf_87Sz8CY_z0SjIkF.jpg",
+        "date_added": "2022-12-20T10:28:37.167626Z"
+    }
+]

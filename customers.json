@@ -1,0 +1,93 @@
+
+[
+    {
+        "customername": "dan joe",
+        "comments": "A quick and easy meal that can be customized to your tastes",
+        "rating": 5,
+        "user": 1,
+        "date_added": "2022-12-20T10:38:48.434170Z",
+        "cook": 1,
+        "id": 10
+    },
+    {
+        "customername": "Jane",
+        "comments": "A classic favorite that can be dressed up with various sauces",
+        "rating": 4,
+        "user": 1,
+        "date_added": "2022-12-20T10:38:15.885515Z",
+        "cook": 2,
+        "id": 9
+    },
+    {
+        "customername": "Daniel p",
+        "comments": "Easy to make and very versatile",
+        "rating": 5,
+        "user": 1,
+        "date_added": "2022-12-20T10:37:53.594263Z",
+        "cook": 3,
+        "id": 8
+    },
+    {
+        "customername": "Jane",
+        "comments": "A classic comfort food",
+        "rating": 5,
+        "user": 1,
+        "date_added": "2022-12-20T10:37:26.357645Z",
+        "cook": 4,
+        "id": 7
+    },
+    {
+        "customername": "peter",
+        "comments": "Spicy and hearty",
+        "rating": 4,
+        "user": 1,
+        "date_added": "2022-12-20T10:37:06.129246Z",
+        "cook": 4,
+        "id": 6
+    },
+    {
+        "customername": "James",
+        "comments": "Crispy and flavorful",
+        "rating": 3,
+        "user": 1,
+        "date_added": "2022-12-20T10:36:39.759726Z",
+        "cook": 5,
+        "id": 5
+    },
+    {
+        "customername": "James",
+        "comments": "A great way to spice up a meal",
+        "rating": 4,
+        "user": 1,
+        "date_added": "2022-12-20T10:36:08.945559Z",
+        "cook": 6,
+        "id": 4
+    },
+    {
+        "customername": "Jane",
+        "comments": "A classic American favorite",
+        "rating": 5,
+        "user": 1,
+        "date_added": "2022-12-20T10:35:51.062280Z",
+        "cook": 7,
+        "id": 3
+    },
+    {
+        "customername": "Daniel",
+        "comments": "Delicious and very filling",
+        "rating": 5,
+        "user": 1,
+        "date_added": "2022-12-20T10:35:20.236697Z",
+        "cook": 7,
+        "id": 2
+    },
+    {
+        "customername": "Daniel p",
+        "comments": "Great flavor and easy to make",
+        "rating": 5,
+        "user": 1,
+        "date_added": "2022-12-20T10:34:59.775194Z",
+        "cook": 1,
+        "id": 1
+    }
+]
