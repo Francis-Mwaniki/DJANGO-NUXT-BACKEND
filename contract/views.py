@@ -29,15 +29,16 @@ def CustomerEnd(request):
         return Response(serializer.data)
 
 
-@api_view(['POST'])
-def search(request):
-    q = request.GET.get('query')
-    if request.GET.get('query') != None:
-         recipes = Cook.objects.filter(name__icontains=q)
-         serializer = CookSerializer(recipes, many=True)
-         return Response(serializer.data)
-    else:
-         return Response({"recipes": []})
+
+class search(APIView):
+    def get(self,request,format=None):
+        recipes = Cook.objects.all()
+        serializer = CookSerializer(recipes,many=True)
+        return Response(serializer.data)
+
+
+       
+
 
    
 

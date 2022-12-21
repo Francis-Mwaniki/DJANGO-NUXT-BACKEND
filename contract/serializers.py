@@ -20,14 +20,5 @@ class CookSerializer(serializers.ModelSerializer):
 class CustomerSerializer(serializers.ModelSerializer):
   class Meta:
       model = Customer
-      fields =  (
-            "customername",
-            "comments",
-            "rating",
-            "user",
-            "date_added",
-            "cook",
-            "id"
-        )
-
+      fields ='__all__'
   

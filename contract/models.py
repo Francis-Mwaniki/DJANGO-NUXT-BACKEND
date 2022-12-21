@@ -21,7 +21,7 @@ class Cook(models.Model):
         return self.cookName
     def __str__(self):
 
-        return self.host    
+        return self.host.get_username()    
 
     def __str__(self):
         return self.recipeName
@@ -71,7 +71,7 @@ class Customer(models.Model):
     def __str__(self):
         return self.customername
     def __str__(self):
-        return self.user
+        return self.user.get_username()
     def __str__(self):
         return self.cook
 
